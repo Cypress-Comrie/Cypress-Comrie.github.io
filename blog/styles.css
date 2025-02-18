@@ -1,6 +1,12 @@
 body {
   background-color: #3f3f3f;
-  background-image: url(../blog/images/spiderman-logo-red-background-blog-image.jpg);
+  margin: 0%;
+}
+.colum.middle {
+  width: 50%;
+}
+.colum.side {
+  width: 25%;
 }
 
 h1 {
@@ -20,6 +26,9 @@ h2 {
   font-weight: 400;
   font-style: normal;
 }
+h3 {
+  text-align: center;
+}
 
 p {
   text-align: center;
@@ -28,22 +37,24 @@ p {
   border: #e41515;
   border: 1px solid black;
   margin-top: 80px;
-  margin-bottom: 100px;
   margin-right: 500px;
   margin-left: 500px;
 }
 
 .blog {
   color: #e41515;
+  background-color: #65737e;
   border: 5px solid white;
-  background-color: #006666;
+  border-radius: 25px;
   margin-right: 1500px;
-  padding-left: 20px;
+  padding-left: 30px;
+  font-size: 24px;
+  text-align: left;
 }
 
 @media all and (max-width: 500px) {
   h1 {
-    margin-top: -0px;
+    text-align: center;
     font-size: 84px;
     color: #e2e2e2;
   }
@@ -51,6 +62,10 @@ p {
     margin-top: -68px;
     font-size: 20px;
     color: #e2e2e2;
+  }
+  p {
+    display: flex;
+    position: relative;
   }
   body {
     background-color: #3f3f3f;
