@@ -1,6 +1,6 @@
 body {
   background-color: #3f3f3f;
-  background-image: ;
+  background-image: url(../blog/images/spiderman-logo-red-background-blog-image.jpg);
 }
 
 h1 {
@@ -24,9 +24,21 @@ h2 {
 p {
   text-align: center;
   font-size: 20px;
+  color: #ffffff;
+  border: #e41515;
+  border: 1px solid black;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-right: 500px;
+  margin-left: 500px;
 }
 
 .blog {
+  color: #e41515;
+  border: 5px solid white;
+  background-color: #006666;
+  margin-right: 1500px;
+  padding-left: 20px;
 }
 
 @media all and (max-width: 500px) {
