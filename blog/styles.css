@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  color: aqua;
+  color: #4c5f7a;
   text-align: center;
   font-size: clamp(3rem, 1rem + 10vw, 7rem);
   font-family: 'Archivo Black', serif;
@@ -34,6 +34,7 @@ h1 {
 }
 
 h2 {
+  color: #4c5f7a;
   text-align: center;
   font-size: clamp(1rem, 1rem + 6vw, 3rem);
   margin-top: -3%;
@@ -47,24 +48,30 @@ h3 {
 
 p {
   text-align: center;
-  font-size: 20px;
-  color: #ffffff;
+  font-size: 30px;
+  color: #4c5f7a;
+  padding-bottom: 30px;
 }
 
 .blog {
   color: #e41515;
   background-color: #65737e;
-  border: 10px solid white;
-
-  border-radius: 25px;
+  border: 8px solid white;
+  border-radius: 20px;
   padding-left: 10px;
+  padding: 20px;
   font-size: 30px;
+}
+.link {
+  color: #1e3e62;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 750px) {
   .logo {
     position: relative;
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem;
@@ -74,5 +81,10 @@ p {
   .logo {
     position: relative;
     left: 110px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 8rem 8rem 8rem 8rem 8rem 8rem;
+    padding-left: 0px;
   }
 }
