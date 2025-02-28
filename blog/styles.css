@@ -85,18 +85,17 @@ p {
     grid-template-columns: 1fr;
     grid-template-rows: 8rem 8rem 8rem 8rem 8rem 8rem;
   }
+  .blog-photo {
+    width: 88vw;
+    height: auto;
+    margin-left: 4vw;
+  }
 }
-.blog-photo {
-  width: 88vw;
-  height: auto;
-  margin-left: 4vw;
-}
-}
+
 @media (max-width: 430px) {
   .logo {
     position: relative;
-
-    left: 110px;
+    margin-left: -11vw;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -109,6 +108,6 @@ p {
   .blog-photo {
     width: 88vw;
     height: auto;
-    margin-left: 0.2vw;
+    margin-left: 4vw;
   }
 }
