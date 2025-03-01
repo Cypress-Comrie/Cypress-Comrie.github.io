@@ -51,6 +51,8 @@ p {
   font-size: 30px;
   color: #4c5f7a;
   padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .blog {
