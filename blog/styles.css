@@ -67,6 +67,7 @@ p {
 .link {
   color: #1e3e62;
   text-decoration: none;
+  text-align: center;
 }
 .subheading {
   font-size: 50px;
@@ -111,5 +112,16 @@ p {
     width: 88vw;
     height: auto;
     margin-left: 4vw;
+  }
+  p {
+    text-align: center;
+    font-size: 5vw;
+    color: #4c5f7a;
+    padding-bottom: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .subheading {
+    font-size: 8.5vw;
   }
 }
