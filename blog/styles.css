@@ -49,10 +49,9 @@ h3 {
 p {
   text-align: center;
   font-size: 30px;
-  color: #4c5f7a;
-  padding-bottom: 30px;
-  padding-right: 100px;
-  padding-left: 100px;
+  color: #a4b8c4;
+  padding-right: 400px;
+  padding-left: 400px;
 }
 
 .blog {
@@ -71,6 +70,7 @@ p {
 }
 .subheading {
   font-size: 50px;
+  color: #fcfafa;
 }
 .blog-photo {
   width: 1175px;
