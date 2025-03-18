@@ -4,10 +4,10 @@ body {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 500px 1fr;
-  grid-template-rows: 100px 200px;
-  place-items: center;
-  overflow: hidden;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 15px;
+grid-row-gap: 12px;
 }
 .logo {
   border-radius: 75%;
@@ -123,5 +123,22 @@ p {
   }
   .subheading {
     font-size: 8.5vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .logo {
+    
+    width: 150px;
+  height: 150px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 8rem 8rem 8rem 8rem 8rem 8rem;
+  }
+  .blog-photo {
+    width: 88vw;
+    height: auto;
+    margin-left: 4vw;
   }
 }
