@@ -81,7 +81,15 @@ ul {
   margin-left: 42rem;
   border: 10px solid #1d1c1c;
 }
-
+.grid2 {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+    
+}
 @media screen and (max-width: 1030px) {
   .logo {
     position: relative;
