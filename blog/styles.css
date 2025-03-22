@@ -4,10 +4,10 @@ body {
 }
 .grid {
   display: grid;
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 15px;
-grid-row-gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 12px;
 }
 .logo {
   border-radius: 75%;
@@ -82,13 +82,11 @@ ul {
   border: 10px solid #1d1c1c;
 }
 .grid2 {
-  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 5px;
-  grid-row-gap: 5px;
-    
+  grid-row-gap: 100px;
 }
 @media screen and (max-width: 1030px) {
   .logo {
@@ -139,9 +137,8 @@ ul {
 }
 @media screen and (max-width: 1300px) {
   .logo {
-    
     width: 150px;
-  height: 150px;
+    height: 150px;
   }
 
   .grid {
