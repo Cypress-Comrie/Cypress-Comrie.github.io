@@ -88,6 +88,17 @@ ul {
   grid-column-gap: 5px;
   grid-row-gap: 100px;
 }
+.grid-3{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 100px;
+  border: 10px solid #1d1c1c;
+}
+i {
+  align-content: center;
+}
 @media screen and (max-width: 1030px) {
   .logo {
     position: relative;
