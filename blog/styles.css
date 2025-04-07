@@ -4,43 +4,59 @@ body {
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 12px;
+  grid-column-gap: 5px;
+  grid-row-gap: 10px;
+  width: 100px;
+  padding-left: 34.25vw;
 }
 .logo {
   border-radius: 75%;
-  width: 200px;
-  height: 200px;
-  position: fixed;
-  top: 8px;
-  left: 16px;
+  width: 100px;
+  height: 100px;
 }
 
 .container {
   max-width: 100vw;
   margin: 50px;
   position: relative;
+  align-content: center;
+}
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  font-size: 2.5rem;
+  font-family: 'Archivo Black', serif;
+}
+li a {
+  color: #fffecb;
+}
+li a:hover {
+  background-color: #111;
 }
 
 h1 {
   color: #4c5f7a;
   text-align: center;
-  font-size: clamp(3rem, 1rem + 10vw, 7rem);
+  font-size: 8rem;
   font-family: 'Archivo Black', serif;
   font-weight: 300;
   font-style: normal;
+  margin-top: 0;
 }
 
 h2 {
   color: #4c5f7a;
+  font-size: 3.25rem;
   text-align: center;
-  font-size: clamp(1rem, 1rem + 6vw, 3rem);
-  margin-top: -3%;
   font-family: 'Archivo Black', serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: -6vh;
 }
 h3 {
   text-align: center;
@@ -52,6 +68,7 @@ p {
   color: #a4b8c4;
   padding-right: 400px;
   padding-left: 400px;
+  margin-top: -2vh;
 }
 ul {
   text-align: center;
@@ -59,13 +76,13 @@ ul {
 }
 
 .blog {
-  color: #e41515;
   background-color: #65737e;
   border: 8px solid white;
   border-radius: 20px;
   padding-left: 10px;
-  padding: 20px;
+  padding: 0.2vw;
   font-size: 30px;
+  width: 300px;
 }
 .link {
   color: #1e3e62;
@@ -88,7 +105,7 @@ ul {
   grid-column-gap: 5px;
   grid-row-gap: 100px;
 }
-.grid-3{
+.grid-3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(9, 1fr);
