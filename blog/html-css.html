@@ -12,55 +12,71 @@
       rel="stylesheet"
     />
   </head>
+  <div>
+    <nav>
+      <ul
+        style="
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: #333;
+        "
+      >
+        <li><a href="index.html" class="w3-mobile">Home</a></li>
+        <li><a href="tech-skills.html" class="w3-mobile"> Tech Skills</a></li>
+        <li><a href="human-skills.html" class="w3-mobile">Human Skills</a></li>
+      </ul>
+    </nav>
+  </div>
+  <header>
+    <h1>Cypress Codes</h1>
+    <h2>It's not you, it's the box model</h2>
+  </header>
+  <body>
+    <p>
+      In this blog post i'll be sharing with you guys what ive learned about the
+      different positions used in css.<br />
+      i'll be using my logo/home button for the examples.
+    </p>
+    <br />
+    <p class="subheading">relative</p>
+    <p>
+      The relative position itself wont change much of anything it'll just keep
+      what you have in the normal flow, but you can add properties like (top,
+      bottom, left, right) to change its position on the screen which will
+      include overlapping other elements
+    </p>
+    <img class="blog-photo" src="images/relative.PNG" alt="blog-photo" />
+    <br />
+    <p style="margin-top: 4vh">
+      Here you can see its just fitting itself into the natural order
+    </p>
+    <br />
+    <p class="subheading">Absolute</p>
+    <p>
+      This one is a little more janky, Instead of sitting in the natural flow of
+      everything it'll create its own flow completely ignoring all the other
+      elements, using the properties listed above also works differently.
+      Instead of changing the position of where it is when things are normal.
+      the distance changed will be from each of the containing elements sides.
+    </p>
+    <img class="blog-photo" src="images/absolute.PNG" alt="blog-photo" />
+    <p style="margin-top: 4vh">
+      In this one its where I want the logo to be but it will stay in that
+      corner forever
+    </p>
+    <br />
+    <p class="subheading">Fixed</p>
+    <p>
+      Fixed positions work similarly to Absolutes, It fixes the element to a
+      visible portion of the view point that basically just means it'll stay on
+      your screen even when you're scrolling away from it
+    </p>
+    <img class="blog-photo" src="images/fixed.PNG" alt="blog-photo" />
+    <p style="margin-top: 4vh">
+      Last of all I scrolled down a little bit and the logo followed me down
+      which would've happened on your screen as well (unless you're on a phone)
+    </p>
+    <footer><a href="html-css.html">Back to top</a></footer>
+  </body>
 </html>
-<header>
-  <h1>Cypress Codes</h1>
-  <h2>It's not you, it's the box model</h2>
-  <h3>27th feburary 2025</h3>
-  <a href="index.html"
-    ><img class="logo" src="images/new-spider-logo.jpg" alt="logo" />
-  </a>
-</header>
-<body>
-  <p>
-    In this blog post i'll be sharing with you guys what ive learned about the
-    diffrent positions used in css.<br />
-    i'll be using my logo/home button for the examples.
-  </p>
-  <br />
-  <p class="subheading">relative</p>
-  <p>
-    The relative positon itself wont change much of anything it'll just keep
-    what you have in the normal flow, but you can add properties like (top,
-    bottom, left, right) to chnage its position on the screen which will include
-    overlapping other elements
-  </p>
-  <img class="blog-photo" src="images/relative.PNG" alt="blog-photo" />
-  <p>Here you can see its just fitting itself into the natural order</p>
-  <br />
-  <p class="subheading">Absolute</p>
-  <p>
-    This one is a little more janky, Instead of sitting in the natural flow of
-    everything it'll create its own flow completly ignoring all the other
-    elements, using the properties listed above also works diffrently. Instead
-    of changing the position of where it is when things are normal. the distance
-    changed will be from each of the containing elements sides.
-  </p>
-  <img class="blog-photo" src="images/absolute.PNG" alt="blog-photo" />
-  <p>
-    In this one its where I want the logo to be but it will stay in that corner
-    forever
-  </p>
-  <br />
-  <p class="subheading">Fixed</p>
-  <p>
-    Fixed positions work similarly to Absolutes, It fixes the element to a
-    visible portion of the view point that basically just means it'll stay on
-    your screen even when you're scrolling away from it
-  </p>
-  <img class="blog-photo" src="images/fixed.PNG" alt="blog-photo" />
-  <p>
-    Last of all I scrolled down a little bit and the logo followed me down which
-    would've happened on your screen aswell (unless you're on a phone)
-  </p>
-</body>
